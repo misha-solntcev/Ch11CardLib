@@ -38,10 +38,10 @@ namespace Ch11CardLib
         {
             return 13 * (int)rank + (int)suit;
         }
-        public static bool operator <(Card card1, Card card2)
+        /*public static bool operator <(Card card1, Card card2)
         {
             return false;
-        }
+        }*/
         public static bool operator >(Card card1, Card card2)
         {
             if (card1.suit == card2.suit)
